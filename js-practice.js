@@ -1,5 +1,5 @@
 //Complete the instructions for each numbered problem. Each numbered problem is worth 10 points
-
+CHECKKKKKSSSSSS
 //1. data types built-in methods, variables
 
 //a. define a variable and give it a string value
