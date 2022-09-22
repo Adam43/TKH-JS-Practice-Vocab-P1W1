@@ -1,49 +1,72 @@
 //Complete the instructions for each numbered problem. Each numbered problem is worth 10 points
-CHECKKKKKSSSSSS
+
 //1. data types built-in methods, variables
 
 //a. define a variable and give it a string value
-
+let x = "apples";
 //b. define a variable and give it a number value
-
+const y = 12;
 //c. define a variable and give it a boolean value
-
+let z = true;
 //2. if else, ternary
 //a. define a variable 'metrocard' and give it a value of 5
-
+let metrocard = 5
 //b. write an if statement that has a condition to check if the value of metro card is greater than 2.75, and display the message "you have enough to ride the train", if the condition is true
-
+if (metrocard > 2.75) {
+    console.log("you have enough to ride the train");
+}
 //c.write an else statement that displays the message "you do not have enough to pay fare sorry"
-
+else {
+    console.log("you do not have enough to pay fare sorry");
+};
 //d. write the above if/else statement again as a ternary
-
+if (metrocard){
+    console.log("you have enough to ride the train");
+} else {
+    console.log("you do not have enough to pay fare sorry");
+}
 //3. conditionals 2 (1 pt)
 //a.  complete this codecademy project: https://www.codecademy.com/courses/introduction-to-javascript/projects/magic-eight-ball-1
 //add a screenshot showing your completion of this project to the root folder of this repo
 
 //4. functions
 //a. write a function named helloWorld that returns the value 'Hello World!'
+function helloWorld(){
+    return 'Hello World!';
+}
 
+helloWorld();
 //b. console log the value returned from running the function helloWorld
-
+console.log(helloWorld());
 //3. arrays
 //a. define a variable myArray and assign it to a value of an array. Give the array at least 5 elements
-
+const myArray = ['apple', 'bananas', 'chocolate cake', 'my 5 bucks', 'the sky'];
 //b. an array's index starts at:
-//
+//Starts at 0
 
 //4. loops
 //a. write a for loop that console logs even numbers starting at 10 and decrementing to 0
+let x = 10;
 
+for (let i = 4; i >= 0; i--){
+    x -=2
+    console.log(x);
+}
 //5. objects
 //a. define a variable named 'bike'
-
+let bike = {};
 //b. assign an object to bike
-
+bike.color = 'green';
 //c. give the object 3 properties: handlebars, color, wheels
+    bike.handlebars: = '';
+    bike.color: '';
+    bike.wheels: = '';
+
 
 //d. give each property a value
-
+bike['handlebars'] = 'black';
+bike['color'] = 'green';
+bike['year'] = 2020;
 //6. Chessboard
 /*Write a function that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a "#" character. The characters should form a chessboard.
 
